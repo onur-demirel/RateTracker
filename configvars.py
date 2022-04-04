@@ -1,5 +1,5 @@
-currency = ["EUR", "USD"] #configure this to change the tracked currency
-target = [9.9,5]
+currency = ["EX CURRECNCY #1", "EX CURRECNCY #2"] #configure this to change the tracked currency
+target = ["TARGET RATE #1", "TARGET RATE #2"]
 passcode = "YOUR PASSWORD"
 sendmail = "SENDER E-MAIL ADDRESS"
 recmail = "RECEIVER E-MAIL ADDRESS"
