@@ -25,7 +25,7 @@ def alarm(arr):
                 if buy >= tar:
                     message = (prefmessage.format(cur, timenowdate, timenowtime, buy, sell, tar))
                     with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-                        server.login("ratetracker.python@gmail.com", password)
+                        server.login(sender_email, password)
                         server.sendmail(sender_email, receiver_email, message)
                 else:
                     print("wait mf")
